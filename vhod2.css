@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to right, #9d9d9d, #ffffff, #808080);
+    font-family: 'Poppins', sans-serif;
+}
+
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: rgb(113, 113, 113);
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(2, 2, 2);
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #000000;
+}
+
+.input-control.error input {
+    border-color: #ffffff;
+}
+
+.input-control .error {
+    color: #ffffff;
+    font-size: 9px;
+    height: 13px;
+}
+.a1{
+
+    color: #ffffff; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+   }
+  .a1:visited {
+    color: #ffffff; /* Цвет посещённой ссылки */
+   } 
+  .a1:hover {
+    color: #ffffff; /* Цвет ссылки при наведении */ 
+    text-decoration: underline; /* Добавляем подчёркивание */
+   }
